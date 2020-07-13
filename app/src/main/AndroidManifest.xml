@@ -16,9 +16,13 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup">
         <activity
+            android:name=".ThreadAsync"
+            android:label="@string/title_activity_thread_async"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".HandlerAsync"
             android:label="@string/title_activity_handler"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
